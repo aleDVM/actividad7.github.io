@@ -1,0 +1,17 @@
+nav, header{
+  background-image: url('./image/bg.jpeg');
+  height: 55vh;
+  color: white;
+}
+li img{
+  width: 20vw;
+}
+
+p{
+  font-size: 10px;
+}
+
+.image img{
+  width: 30vw;
+  height: auto;
+}
