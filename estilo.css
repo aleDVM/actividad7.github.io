@@ -1,8 +1,14 @@
-nav, header{
+nav.navbar, header{
   background-image: url('./image/bg.jpeg');
-  height: 55vh;
   color: white;
+  margin: 0px;
+  padding: 0px;
+
 }
+header{
+    height: 45vh;
+}
+
 li img{
   width: 20vw;
 }
@@ -14,4 +20,56 @@ p{
 .image img{
   width: 30vw;
   height: auto;
+}
+
+.btn-1{
+  background-color: blue;
+  padding: 10px;
+  border-radius: 12px;
+  color:white;
+}
+.btn-2{
+  background-color: green;
+}
+
+.cabe, .ult, .container{
+  text-align: center;
+}
+
+
+li{
+  list-style-type: none;
+}
+.term{
+  margin-bottom: 20px;
+}
+
+@media (max-width:900px) {
+
+
+footer{
+  height: 15vh;
+  background-color: black;
+  color: white;
+  padding-top: 7%;
+  margin-bottom: 0px;
+}
+}
+
+footer{
+  height: 15vh;
+  background-color: black;
+  color: white;
+  padding-top: 2%;
+  margin-bottom: 0px;
+}
+
+.item img{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+
+}
+img.gato{
+  max-width: 70%;
 }
